@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+}
+nav {
+    padding: 15px;
+}
+
+.topbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: black;
+    padding: 15px;
+}
+
+.topbar nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topbar nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.topbar nav a:hover, .topbar nav a.active {
+    color: grey;
+}
+
+                /*BANNIÈRE*/
+.bannière {
+    height: 300px;
+    background: no-repeat center / cover url(img/jardins.jpeg);
+    border-radius: 10px;
+}
+.bannière1{
+    height: 300px;
+    background: no-repeat center / cover url(img/buttes.jpeg);
+    border-radius: 10px;
+}
+.bannière2{
+    height: 300px;
+    background: no-repeat center / cover url(img/bellville.jpeg);
+    border-radius: 10px;
+}
+.present {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 20vw;
+    text-align: justify;
+    padding: 30px;
+    position: relative;
+
+}
+
+            /* TEXT ARTICLE */
+.tennis{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 20vw;
+    text-align: justify;
+    padding: 30px;
+    position: relative;
+}
+.boat{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 20vw;
+    text-align: justify;
+    padding: 30px;
+    position: relative;
+}
+.statut{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 20vw;
+    text-align: justify;
+    padding: 30px;
+    position: relative;
+}
+.info {
+    display: flex;
+}
+
+                /* FORMULAIRE */
+.contact{
+    padding: 40px 15%;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-form h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+#us {
+    color: #f9004d
+}
+
+.contact-form p {
+    letter-spacing: 2px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input, form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background-color: #9f9f9f;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-form form .btn{
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover{
+    border: 2px solid #f9004d;
+    background: transparent;
+    color: #f9004d
+}
+
+                    /* TABLEAU */
+
+.tableau {
+    text-align: center;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.tableau td, .tableau th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+
+.tableau tr {
+    color: black;
+    background-color: #9f9f9f ;
+}
+
+
+.tableau th {
+    color: black;
+    background-color: whitesmoke;
+}
+            /* FOOTER */ 
+.footer{
+    display: flex;
+    color: #9f9f9f;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.hour{
+    letter-spacing: 2px;
+    text-transform: uppercase;width: 20vw;
+    padding: 50px;
+}
+.adress{
+    letter-spacing: 2px;
+    text-transform: uppercase;width: 20vw;
+    padding: 50px;
+}
+
+.btn{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 40px;
+    height: 15px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #9f9f9f;
+}
